@@ -1,4 +1,4 @@
-#atividade 2
+#atividade 2 listas
 #contar maiores de idade
 idades = [15, 22, 17, 35, 40, 13, 18]
 maiorque18 = 0

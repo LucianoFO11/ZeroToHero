@@ -1,4 +1,4 @@
-#atividade 3
+#atividade 3 listas
 #cadastro de alunos
 alunos=[]
 repeticoes=(int(input("Bem vindo ao sistema de notas, digite quantos alunos deseja lançar: ")))

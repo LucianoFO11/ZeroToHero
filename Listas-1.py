@@ -1,4 +1,4 @@
-#atividade 1
+#atividade 1 listas
 listanomes = []
 repetições=5
 for i in range(repetições):
