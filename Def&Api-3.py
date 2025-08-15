@@ -11,8 +11,9 @@ def pegarinfopoke(nomepokemon):
     dados = response.json()
 
     print("Nome:", dados.get("name"))
-    print("Peso:", dados.get("weight") / 10, "kg")  # peso vem em hectogramas
-    print("Altura:", dados.get("height") / 10, "m") # altura vem em decímetros
+    print("Peso:", dados.get("weight") / 10, "kg")
+    print("Altura:", dados.get("height") / 10, "m")
+
     tipos = dados.get("types")
     tipos_nomes = [t["type"]["name"] for t in tipos]
     print("Tipos:", ", ".join(tipos_nomes))
